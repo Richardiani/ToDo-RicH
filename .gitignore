@@ -1,8 +1,7 @@
 # Gradle
-.gradle
 .gradle/
-build/
-gradle/
+**/build/
+local.properties
 
 # Android
 *.apk
@@ -11,7 +10,6 @@ gradle/
 *.class
 bin/
 obj/
-local.properties
 .DS_Store
 *.jks
 *.keystore
@@ -35,7 +33,13 @@ local.properties
 .DS_Store
 Thumbs.db
 
+# Keep gradle wrapper files tracked
+!gradlew
+!gradlew.bat
+!gradle/
+!gradle/wrapper/
+!gradle/wrapper/gradle-wrapper.properties
+
 # Other
 *.log
 .env
-.gradle/caches/
