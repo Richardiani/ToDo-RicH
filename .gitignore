@@ -1,0 +1,41 @@
+# Gradle
+.gradle
+.gradle/
+build/
+gradle/
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+obj/
+local.properties
+.DS_Store
+*.jks
+*.keystore
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.classpath
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+*.log
+.env
+.gradle/caches/
